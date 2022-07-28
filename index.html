@@ -97,9 +97,9 @@
         </div>
         <!-- carusel end -->
     </header>
-    <main>
+    <main class="container">
         <!-- courses section start -->
-        <section class="container">
+        <section class="">
             <div
                 class="d-flex flex-column justify-content-sm-center ms-2 justify-contant-center align-items-center mb-5">
                 <h1 class="mb-3">Discover Our Popular Courses</h1>
@@ -108,7 +108,7 @@
             </div>
             <div class="">
                 <div class="row gy-3">
-                    <div class="col-lg-6 d-flex flex-column flex-md-row">
+                    <div class="col-lg-6 d-flex flex-column flex-md-row border border-light rounded">
                         <img class="img-fluid" src="images/course/course-1.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Fundamental Of UI/UX Design</h3>
@@ -116,7 +116,7 @@
                             <p>Price : 20$</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex flex-column flex-md-row">
+                    <div class="col-lg-6 d-flex flex-column flex-md-row border border-light rounded">
                         <img class="img-fluid" src="images/course/course-2.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Javascript Basic to advanced</h3>
@@ -124,7 +124,7 @@
                             <p>Price : 20$</p>
                         </div>
                     </div>
-                    <div class=" col-lg-6 d-flex flex-column flex-md-row">
+                    <div class=" col-lg-6 d-flex flex-column flex-md-row border border-light rounded">
                         <img class="img-fluid" src="images/course/course-3.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Fullstack Web Development</h3>
@@ -132,7 +132,7 @@
                             <p>Price : 20$</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex flex-column flex-md-row">
+                    <div class="col-lg-6 d-flex flex-column flex-md-row border border-light rounded ">
                         <img class="img-fluid" src="images/course/course-4.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Digital Marketing</h3>
@@ -140,7 +140,7 @@
                             <p>Price : 20$</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex flex-column flex-md-row">
+                    <div class="col-lg-6 d-flex flex-column flex-md-row border border-light rounded">
                         <img class="img-fluid" src="images/course/course-5.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Photography Basic Rules</h3>
@@ -148,7 +148,7 @@
                             <p>Price : 20$</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex flex-column flex-md-row">
+                    <div class="col-lg-6 d-flex flex-column flex-md-row border border-light rounded">
                         <img class="img-fluid" src="images/course/course-6.png" alt="">
                         <div class="d-flex flex-column justify-contant-center p-3">
                             <h3>Motion Graphics</h3>
@@ -158,8 +158,51 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex flex-column justify-contant-center align-items-center mb-5 mt-5"><button type="button"
+                    class="btn btn-info">See More Courses</button></div>
 
         </section>
+        <!-- courses section end-->
+        <!-- modal section start -->
+        <section
+            class="bg-info rounded flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap d-flex justify-contant-sm-center justify-content-md-center justify-content-lg-center align-items-center align-items-md-center align-items-lg-center mb-5 "
+            style="height:300px; width: auto;">
+            <div class="d-flex flex-column p-5 " style="color:white ;">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout.</p>
+            </div>
+            <div class="">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    style="color: #289BDE" ;>
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class=" modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Hello There</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Welcome to my website
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal section end -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
